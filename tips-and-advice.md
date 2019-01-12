@@ -1,0 +1,3 @@
+# Polling the valves for status
+
+Using any command on a trv results in the valve status being published. This can be useful for polling the valve status. Be aware that repeatedly sending unboost can result in the valve opening despite reporting that boost mode is inactive. It is not clear if this is a misunderstood feature or a bug in the valve software. It is advisable to avoid polling the valve using the unboost command. Instead repeatedly setting the valve to lock/unlock or auto/manual can be used to poll the status.
