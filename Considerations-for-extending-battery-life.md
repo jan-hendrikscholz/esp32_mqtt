@@ -8,7 +8,8 @@ The two valves where the batteries expired without leaking lasted about 2 years 
 There are three operations that will affect the battery life: 
 * Continual LCD display and monitoring of the room temperature 
 * BLE communication
-* Motor drive to open/close the valve  
+* Motor drive to open/close the valve 
+ 
 Temperature monitoring and LCD display will always be active so cannot be optimised. The drain will be minimal.
 The largest drain will come from driving the motor so ideally this should be minimised. BLE will not use much power but regular communication will have an effect on battery life.
 
